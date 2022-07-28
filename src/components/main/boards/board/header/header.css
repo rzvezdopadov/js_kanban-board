@@ -1,0 +1,19 @@
+.task-board-header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 282px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.task-board-dots {
+    border-radius: 5px;
+    font-size: 18px;
+    color: #5E6C84;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}

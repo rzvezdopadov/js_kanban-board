@@ -1,0 +1,93 @@
+.user-menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3vw;
+    cursor: pointer;
+}
+
+.user-avatar-container {
+    background-color: #ffffff;
+    clip-path: circle(50.0% at 50% 50%);
+    width: 40px;
+    height: 40px;
+}
+
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.arrow-down-container {
+    height: 100%;
+    margin-left: 5px;
+}
+
+.arrow-down {
+    height: 24px;
+    width: 24px;
+    animation: arrow-down-animation 1s backwards;
+}
+
+@keyframes arrow-down-animation {
+    from {
+        transform: rotate(180deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+#arrow-down:hover {
+    cursor: pointer;
+}
+
+.arrow-down-reverse {
+    animation: arrow-down-reverse-animation 1s forwards;
+}
+
+@keyframes arrow-down-reverse-animation {
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+.menu {
+    position: fixed;
+    z-index: 10;
+    top: 58px;
+    right: 4px;
+    width: 140px;
+    display: flex;
+    flex-flow: column;
+    background-color: #0067A3;
+}
+
+.menu-item {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    width: 130px;
+    color: white;
+    border: solid 2px white;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    opacity: 0;
+    filter: blur(10px);
+    animation: menu-item-animation 1s forwards;
+}
+
+@keyframes menu-item-animation {
+    to {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    background-color: #548fb1;
+}

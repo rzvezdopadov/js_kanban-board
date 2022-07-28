@@ -1,0 +1,11 @@
+@import url(./boards/boards.css);
+
+.main {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #0079BF;
+    overflow: auto;
+}

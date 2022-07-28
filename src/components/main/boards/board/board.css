@@ -1,0 +1,17 @@
+@import url(./header/header.css);
+@import url(./tasks/tasks.css);
+@import url(./footer/footer.css);
+
+.task-board {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: max-content;
+    min-height: 300px;
+    width: 282px;
+    min-width: max-content;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #EBECF0;
+}

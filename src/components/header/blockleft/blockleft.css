@@ -1,0 +1,18 @@
+.blockleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+}
+
+.brand {
+    display: block;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}

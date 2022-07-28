@@ -1,0 +1,9 @@
+@import url(./board/board.css);
+
+.main-div-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}

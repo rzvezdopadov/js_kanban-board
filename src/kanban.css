@@ -1,0 +1,17 @@
+@import url('components/header/header.css');
+@import url('components/main/main.css');
+@import url('components/footer/footer.css');
+@import url('components/modal/modal.css');
+.body, .html {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexboxtype {
+    display: flex;
+    align-items: center;
+}

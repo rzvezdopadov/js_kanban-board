@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+  <head>
+    <link rel="stylesheet" href="ex13_kanban.css" />
+    <script src="ex13_kanban.js"></script>
+    <title>Kanban board by Roman Zvezdopadov</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body class="body">
+    <header class="flexboxtype header">
+      <div class="flexboxtype blockleft">
+        <img class="logo" src="logo.png" alt="logo.png" />
+        <a class="brand" href="#">Awesome Kanban Board</a>
+      </div>
+      <div class="flexboxtype blockright">
+        <button class="flexboxtype createnewlist">
+          <img class="add-list" src="add.png" alt="add.png" />
+          <span class="labelcreatenew">Create new list</span>
+        </button>
+        <div class="flexboxtype user-menu">
+          <div class="user-avatar-container">
+            <img
+              class="user-avatar"
+              src="https://bigpicture.ru/wp-content/uploads/2020/11/4c6a92ce073181575173cb5a9a733c32.jpg"
+              alt="https://bigpicture.ru/wp-content/uploads/2020/11/4c6a92ce073181575173cb5a9a733c32.jpg"
+            />
+          </div>
+          <div class="arrow-down-container">
+            <img
+              class=""
+              id="arrow-down"
+              src="arrow-down.png"
+              alt="arrow-down.png"
+            />
+          </div>
+          <div class="flexboxtype menu" id="menu"></div>
+        </div>
+      </div>
+    </header>
+    <main class="flexboxtype main" id="main"></main>
+    <footer class="flexboxtype footer">
+      <div>
+        <span class="tasks-count-label">Active tasks:</span>
+        <span class="active-tasks" id="active-tasks">0</span>
+      </div>
+      <div>
+        <span class="tasks-count-label">Finished tasks:</span>
+        <span class="finished-tasks" id="finished-tasks">0</span>
+      </div>
+      <div class="flexboxtype blockrightfoot">
+        Kanban board by Roman Zvezdopadov, 2021
+      </div>
+    </footer>
+  </body>
+</html>

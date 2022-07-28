@@ -1,0 +1,14 @@
+@import url('blockleft/blockleft.css');
+@import url('blockright/blockright.css');
+
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw 0 2vw;
+    color: #ffffff;
+    min-height: 55px;
+    max-width: 100%;
+    background-color: #0067A3;
+}

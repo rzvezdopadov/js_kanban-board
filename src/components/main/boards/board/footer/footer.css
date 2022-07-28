@@ -1,0 +1,33 @@
+.add-card {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 282px;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.add-card-btn {
+    background-image: url(../../../../../images/add-card.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #5E6C84;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.add-card-btn:hover:enabled {
+    cursor: pointer;
+    background-color: white;
+}
+
+.add-card-btn:disabled {
+    background-image: url(../../../../../images/add-card-disabled.png);
+    cursor: not-allowed;
+    color: #cacaca;
+}

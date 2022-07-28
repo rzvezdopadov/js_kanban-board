@@ -1,0 +1,23 @@
+@import url(./active-tasks/active-tasks.css);
+@import url(./finished-tasks/finished-tasks.css);
+@import url(./blockrightfoot/blockrightfoot.css);
+
+.footer {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    min-height: 55px;
+    max-width: 100%;
+    background-color: #0067A3;
+    padding: 0 5vw;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    user-select: none;
+}
+
+.tasks-count-label {
+    user-select: none;
+}
